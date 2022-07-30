@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD87CBB128958D7F008D8893 /* Controls Practice.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87CBB028958D7F008D8893 /* Controls Practice.png */; };
 		BDE9B6FD28918DC6008D0F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9B6FC28918DC6008D0F6F /* AppDelegate.swift */; };
 		BDE9B6FF28918DC6008D0F6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9B6FE28918DC6008D0F6F /* SceneDelegate.swift */; };
 		BDE9B70128918DC6008D0F6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9B70028918DC6008D0F6F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD87CBB028958D7F008D8893 /* Controls Practice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Controls Practice.png"; sourceTree = "<group>"; };
 		BDE9B6F928918DC6008D0F6F /* Controls Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Controls Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE9B6FC28918DC6008D0F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE9B6FE28918DC6008D0F6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD87CBAD28958D24008D8893 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				BD87CBB028958D7F008D8893 /* Controls Practice.png */,
+				BDE9B70528918DC6008D0F6F /* Assets.xcassets */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		BDE9B6F028918DC6008D0F6F = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +71,7 @@
 				BDE9B6FE28918DC6008D0F6F /* SceneDelegate.swift */,
 				BDE9B70028918DC6008D0F6F /* ViewController.swift */,
 				BDE9B70228918DC6008D0F6F /* Main.storyboard */,
-				BDE9B70528918DC6008D0F6F /* Assets.xcassets */,
+				BD87CBAD28958D24008D8893 /* Screenshot */,
 				BDE9B70728918DC6008D0F6F /* LaunchScreen.storyboard */,
 				BDE9B70A28918DC6008D0F6F /* Info.plist */,
 			);
@@ -128,6 +139,7 @@
 				BDE9B70928918DC6008D0F6F /* LaunchScreen.storyboard in Resources */,
 				BDE9B70628918DC6008D0F6F /* Assets.xcassets in Resources */,
 				BDE9B70428918DC6008D0F6F /* Main.storyboard in Resources */,
+				BD87CBB128958D7F008D8893 /* Controls Practice.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
